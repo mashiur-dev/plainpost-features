@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "plainpost-features/trending-posts",
+  "version": "0.1.0",
+  "title": "Trending Posts",
+  "category": "widgets",
+  "icon": "grid-view",
+  "description": "A Custom Block to Show Trending Posts",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "trending-posts",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
